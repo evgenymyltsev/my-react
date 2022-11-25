@@ -1,0 +1,24 @@
+{
+  "name": "my-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgenymyltsev/my-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgenymyltsev/my-react/issues"
+  },
+  "homepage": "https://github.com/evgenymyltsev/my-react#readme",
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "typescript": "^4.9.3"
+  }
+}
