@@ -62,8 +62,6 @@ const useEffect = (callback, dependencyArray) => {
   const currentStateIndex = statesIndex;
   const oldDependency = states[currentStateIndex];
 
-  console.log(oldDependency, dependencyArray);
-
   if (oldDependency) {
     hasChanged = false;
 
@@ -101,7 +99,8 @@ const App = () => {
     "post"
   );
 
-  useEffect(() => console.log("effect"), [count]);
+  useEffect(() => console.log("effect without deps"), []);
+  useEffect(() => console.log("effect without deps"), [count]);
 
   return (
     <div className="container">
